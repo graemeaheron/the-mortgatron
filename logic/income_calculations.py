@@ -1,4 +1,4 @@
-from paye_taxation import compute_paye_taxation
+from .paye_taxation import compute_paye_taxation
 
 def compute_income_after_paye(salary, pension_contributions_rate):
     paye_tax = compute_paye_taxation(salary, pension_contributions_rate)
